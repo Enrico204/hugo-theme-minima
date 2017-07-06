@@ -1,0 +1,22 @@
+; top-most EditorConfig file
+root = true
+
+; Unix-style newlines
+[*]
+charset = utf-8
+end_of_line = lf
+indent_size = 4
+indent_style = space
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.md]
+trim_trailing_whitespace = false
+
+[*.{sh}]
+indent_style = tab
+indent_size = 2
+
+[*.{json,sql,toml,xml,yml}]
+indent_style = tab
+indent_size = 2
