@@ -6,7 +6,8 @@ Items starting with `DEPRECATION` are important deprecation notices.
 
 ### New Features
 
-+ None yet!
++ Added build system for SASS
++ Created initial structure for Jekyll "Minima" theme port
 
 ### Bug fixes
 
