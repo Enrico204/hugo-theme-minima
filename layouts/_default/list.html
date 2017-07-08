@@ -1,21 +1,14 @@
 <!DOCTYPE html>
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
-
-  {{ partial "head.html" . }}
-
+{{ partial "head.html" . }}
   <body>
-
-    {{ partial "header.html" . }}
-
+{{ partial "header.html" . }}
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
         <pre>layouts/_default/list.html</pre>
-        {{ .Content }}
+{{ .Content }}
       </div>
     </main>
-
-    {{ partial "footer.html" . }}
-
+{{ partial "footer.html" . }}
   </body>
-
 </html>
