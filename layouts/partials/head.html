@@ -14,4 +14,6 @@
     <link rel="stylesheet" href="{{ "/css/minima.css" | relURL }}">
     <link rel="canonical" href="{{ .URL | absLangURL }}">
     <link rel="alternate" type="application/rss+xml" title="{{ .Site.Title | htmlEscape }}" href="{{ .RSSLink | relURL }}">
+{{ template "_internal/opengraph.html" . }}
+{{ template "_internal/twitter_cards.html" . }}
   </head>
