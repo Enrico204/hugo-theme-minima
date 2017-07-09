@@ -1,11 +1,13 @@
-<!DOCTYPE html>
-<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
 {{ partial "head.html" . }}
-  <body>
+
 {{ partial "header.html" . }}
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <pre>layouts/_default/single.html</pre>
+{{ if .Params.banner }}
+        <p class="centered">
+          <img src="{{ .Params.banner | relURL }}" alt="{{ .Title }}" align="center"/>
+        </p>
+{{ end }}
 {{ .Content }}
       </div>
     </main>

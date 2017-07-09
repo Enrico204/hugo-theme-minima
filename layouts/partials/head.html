@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
   <head>
     {{ .Hugo.Generator }}
     <meta charset="utf-8">
@@ -17,6 +19,7 @@
 
 {{ partial "seo/og.html" . }}
 {{ template "_internal/google_news.html" . }}
-{{ template "_internal/schema.html" . }}
 {{ template "_internal/twitter_cards.html" . }}
   </head>
+
+  <body>
