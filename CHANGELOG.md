@@ -6,12 +6,17 @@ Items starting with `DEPRECATION` are important deprecation notices.
 
 ### New Features
 
++ Added page footer with support for icons
++ Added support for banners in `single` display mode
++ Added google webmaster tools verification support
++ Generate site menu from `.Site.Menus`
 + Added build system for SASS
 + Created initial structure for Jekyll "Minima" theme port
 
 ### Bug fixes
 
-+ None yet!
++ Fixed page metadata by using SEO tagging with Open Graph,
+  Google News and Twitter support.
 
 ### Maintenance
 
