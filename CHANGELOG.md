@@ -6,6 +6,7 @@ Items starting with `DEPRECATION` are important deprecation notices.
 
 ### New Features
 
++ Added section list template
 + Added support for favicons
 + Added page footer with support for icons
 + Added support for banners in `single` display mode

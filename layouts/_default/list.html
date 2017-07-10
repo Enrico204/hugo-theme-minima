@@ -3,8 +3,22 @@
 {{ partial "header.html" . }}
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <pre>layouts/_default/list.html</pre>
+        <div class="home">
 {{ .Content }}
+{{ range (where .Site.RegularPages "Type" "post").GroupByDate "2006" }}
+          <h2 class="page-heading">{{ .Key }}</h2>
+          <ul class="post-list">
+{{ range .Pages }}
+            <li>
+              <span class="post-meta">{{ .Date.Format "Jan _2, 2006" }}</span>
+
+              <h2><a class="post-link" href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+            </li>
+{{ end }}
+          </ul>
+{{ end }}
+          <p class="rss-subscribe">Subscribe <a href="{{ .RSSLink | relURL }}">via RSS</a>.</p>
+        </div>
       </div>
     </main>
 {{ partial "footer.html" . }}
