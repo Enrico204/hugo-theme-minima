@@ -17,6 +17,7 @@ Items starting with `DEPRECATION` are important deprecation notices.
 
 ### Bug fixes
 
++ Moved HTML closing tags into footer partial
 + Fixed page metadata by using SEO tagging with Open Graph,
   Google News and Twitter support.
 
