@@ -12,7 +12,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 400 16px/1.5 -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
   color: #111;
   background-color: #fdfdfd;
   -webkit-text-size-adjust: 100%;
@@ -490,17 +490,6 @@ img.banner {
 .footer-links li {
   margin: 0;
   padding: 0;
-  display: inline-block;
-}
-
-.footer-links li:before {
-  content: '/';
-  position: relative;
-  left: -2px;
-}
-
-.footer-links li:first-child:before {
-  display: none;
 }
 
 .footer-links a {
@@ -511,14 +500,14 @@ img.banner {
   margin: 0 15px;
 }
 
-.footer-links a:hover, .footer-links a:focus {
-  color: #222;
-}
-
-.footer-links-kudos img {
+.footer-links a.kudos img {
   position: relative;
   top: 0;
   margin-left: 2px;
+}
+
+.footer-links a:hover, .footer-links a:focus {
+  color: #222;
 }
 
 .headroom {

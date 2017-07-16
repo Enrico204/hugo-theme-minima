@@ -313,18 +313,6 @@ img.banner {
     li {
         margin: 0;
         padding: 0;
-        display: inline-block;
-
-        &:before {
-            content: '/';
-            position: relative;
-            left: -2px;
-        }
-        &:first-child {
-            &:before {
-                display: none;
-            }
-        }
     }
 
     a {
@@ -333,16 +321,15 @@ img.banner {
         transition: color 150ms ease;
         margin: 0 15px;
 
+        &.kudos {
+            img {
+                position: relative;
+                top: 0;
+                margin-left: 2px;
+            }
+        }
         &:hover, &:focus {
             color: #222;
         }
-    }
-}
-
-.footer-links-kudos {
-    img {
-        position: relative;
-        top: 0;
-        margin-left: 2px;
     }
 }
