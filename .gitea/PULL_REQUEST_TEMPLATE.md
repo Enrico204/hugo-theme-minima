@@ -1,6 +1,6 @@
 <!--
 Please make sure you've read and understood our contributing guidelines;
-https://git01.kogitoapp.com/openwow/server/src/master/CONTRIBUTING.md
+https://wowstack.io/manual/
 
 ** Make sure all your commits include a signature generated with `git commit -s` **
 

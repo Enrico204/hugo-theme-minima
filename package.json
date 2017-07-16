@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Minima is a one-size-fits-all Hugo theme for writers.",
 	"main": "gulpfile.js",
-  "repository": "https://git01.kogitoapp.com/openwow/hugo-minima.git",
+  "repository": "https://git01.kogitoapp.com/wowstack/hugo-minima.git",
   "author": "Daniel S. Reichenbach <daniel@kogitoapp.com>",
   "license": "MIT",
   "private": true,

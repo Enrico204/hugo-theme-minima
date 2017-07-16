@@ -3,16 +3,16 @@
 
 name = "Minima"
 license = "MIT"
-licenselink = "https://git01.kogitoapp.com/openwow/hugo-minima/src/master/LICENSE.md"
+licenselink = "https://git01.kogitoapp.com/wowstack/hugo-minima/src/master/LICENSE.md"
 description = "Minima is a one-size-fits-all Hugo theme for writers."
-homepage = "https://git01.kogitoapp.com/openwow/hugo-minima"
+homepage = "https://git01.kogitoapp.com/wowstack/hugo-minima"
 tags = ["blog", "minimal"]
 features = ["html5", "css3", "tags"]
 min_version = 0.17
 
 [author]
   name = "Daniel S. Reichenbach"
-  homepage = "http://marenkay.com/"
+  homepage = "https://marenkay.com/"
 
 [original]
     homepage = "https://jekyll.github.io/minima/"
