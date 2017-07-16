@@ -14,12 +14,12 @@
                     <ul class="social-media-list">
 {{ if .Site.Social.github }}
                         <li>
-                            <a href="https://github.com/{{ .Site.Social.github }}"><span class="icon icon--github">{{ partial "icons/github.html" . }}</span><span class="username">{{ .Site.Social.github }}</span></a>
+                            <a href="https://github.com/{{ .Site.Social.github }}"><span class="icon icon--github">{{< icon src="github" >}}</span><span class="username">{{ .Site.Social.github }}</span></a>
                         </li>
 {{ end }}
 {{ if .Site.Social.twitter }}
                         <li>
-                            <a href="https://twitter.com/{{ .Site.Social.twitter }}"><span class="icon icon--twitter">{{ partial "icons/twitter.html" . }}</span><span class="username">{{ .Site.Social.twitter }}</span></a>
+                            <a href="https://twitter.com/{{ .Site.Social.twitter }}"><span class="icon icon--twitter">{{< icon src="twitter" >}}</span><span class="username">{{ .Site.Social.twitter }}</span></a>
                         </li>
 {{ end }}
                     </ul>
