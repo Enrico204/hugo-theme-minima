@@ -291,7 +291,6 @@ pre > code {
 .site-footer {
   border-top: 1px solid #e8e8e8;
   padding: 30px 0;
-  margin-bottom: 50px;
 }
 
 .footer-heading {
@@ -476,105 +475,6 @@ p.centered {
   position: relative;
   top: 0;
   margin-left: 2px;
-}
-
-/**
- * Newsletter
- */
-.newsletter-container {
-  position: fixed;
-  bottom: 0;
-  background-color: #FCFDFE;
-  padding: 10px 0 10px 0;
-  background-color: #E4E5E6;
-  width: 100%;
-}
-
-.newsletter-div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
-.newsletter-div form {
-  width: 400px !important;
-}
-
-.newsletter-div .mktoForm .mktoFormRow {
-  float: left !important;
-}
-
-.newsletter-div span.mktoButtonWrap.mktoSimple {
-  margin-left: 0px !important;
-}
-
-.newsletter-div label.mktoLabel.mktoHasWidth {
-  width: 0px !important;
-}
-
-.newsletter-div .mktoForm .mktoButtonWrap.mktoSimple .mktoButton {
-  background-color: #468BC7;
-  background-image: none;
-  border: none;
-  color: #fff;
-  font-weight: 200;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 16px;
-  border-radius: 2px;
-  padding: 7px 15px;
-}
-
-.newsletter-div p {
-  color: #0081BC;
-  margin-right: 10px;
-  margin-top: 10px;
-  font-weight: bold;
-}
-
-.newsletter-div .mktoForm .mktoButtonWrap.mktoSimple .mktoButton:hover {
-  border: 1px solid #468BC7;
-}
-
-.newsletter-div input[type="email"] {
-  background-color: #F2F3F4;
-  border: none;
-  width: 200px !important;
-  max-width: 200px !important;
-  font-weight: 200;
-  font-size: 16px;
-  border-radius: 2px;
-  padding: 7px 15px !important;
-  color: #468BC7;
-  margin-right: 10px !important;
-}
-
-.newsletter-div input[type="email"]::-webkit-input-placeholder {
-  color: #468BC7;
-}
-
-.newsletter-div input[type="email"]::-moz-placeholder {
-  color: #468BC7;
-}
-
-.newsletter-div input[type="email"]:-ms-input-placeholder {
-  color: #468BC7;
-}
-
-.newsletter-div input[type="email"]:-moz-placeholder {
-  color: #468BC7;
 }
 
 /**
