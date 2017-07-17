@@ -22,6 +22,7 @@ Items starting with `DEPRECATION` are important deprecation notices.
 
 ### Bug fixes
 
++ Fixed use of HTML language property
 + Fixed `.footer-links` margin
 + Added title to banner images
 + Give banners a rounded border
