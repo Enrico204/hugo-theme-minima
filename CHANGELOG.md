@@ -2,7 +2,7 @@
 
 Items starting with `DEPRECATION` are important deprecation notices.
 
-## (NOT YET RELEASED) Release 0.1.0
+## (2017-07-17) Release 0.1.0
 
 ### New Features
 
