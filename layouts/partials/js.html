@@ -1,0 +1,4 @@
+<script src="{{ "/js/minima/headroom.js" | relURL }}"></script>
+<script src="{{ "/js/minima/main.js" | relURL }}"></script>
+{{ range .Site.Params.customJS }}<script src="{{ $.Site.BaseURL }}{{ . }}"></script>{{ end }}
+{{ template "_internal/google_analytics_async.html" . }}

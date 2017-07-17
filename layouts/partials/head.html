@@ -13,8 +13,8 @@
     <meta name="keywords" content="{{ if .Keywords }}{{ range .Keywords }}{{ . }}, {{ end }}{{else if isset .Params "tags" }}{{ range .Params.tags }}{{ . }}, {{ end }}{{end}}">
     <meta name="copyright" content="{{ .Site.Copyright }}">
 
-    <script src="{{ "/js/headroom.js" | relURL }}"></script>
     <link rel="stylesheet" href="{{ "/css/minima.css" | relURL }}">
+    {{ range .Site.Params.customCSS }}<link rel="stylesheet" href="{{ $.Site.BaseURL }}{{ . }}" />{{ end }}
     <link rel="canonical" href="{{ .URL | absLangURL }}">
     <link rel="alternate" type="application/rss+xml" title="{{ .Site.Title | htmlEscape }}" href="{{ .RSSLink | relURL }}">
 

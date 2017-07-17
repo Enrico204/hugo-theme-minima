@@ -2,6 +2,17 @@
 
 Items starting with `DEPRECATION` are important deprecation notices.
 
+## (NOT YET RELEASE ) Release 0.2.0
+
+### New Features
+
++ Allow adding custom CSS and JS to the theme using `customCSS` and `customJS`
+  site parameters
+
+### Bug fixes
+
++ Fixed use of HTML language property
+
 ## (2017-07-17) Release 0.1.0
 
 ### New Features
@@ -22,7 +33,6 @@ Items starting with `DEPRECATION` are important deprecation notices.
 
 ### Bug fixes
 
-+ Fixed use of HTML language property
 + Fixed `.footer-links` margin
 + Added title to banner images
 + Give banners a rounded border
