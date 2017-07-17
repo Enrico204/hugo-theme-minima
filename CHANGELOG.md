@@ -6,6 +6,7 @@ Items starting with `DEPRECATION` are important deprecation notices.
 
 ### New Features
 
++ Added options to make header move smoother
 + Allow adding custom CSS and JS to the theme using `customCSS` and `customJS`
   site parameters
 
