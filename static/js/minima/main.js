@@ -7,4 +7,6 @@ function minimaInit() {
     headroom.init();
 };
 
-$(document).ready(minimaInit);
+document.addEventListener("DOMContentLoaded", function(event) {
+  minimaInit();
+});
