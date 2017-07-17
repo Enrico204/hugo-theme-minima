@@ -11,6 +11,7 @@ Items starting with `DEPRECATION` are important deprecation notices.
 
 ### Bug fixes
 
++ Fixed JS console error
 + Fixed use of HTML language property
 
 ## (2017-07-17) Release 0.1.0
