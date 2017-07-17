@@ -12,9 +12,9 @@
                 </label>
 
                 <div class="trigger">
-{{ $currentPage := . }}{{ $section := replaceRE "^/([^/]+)/.*" "$1" .URL }}{{ range (default .Site.Menus.main (index .Site.Menus $section)) }}
+{{- $currentPage := . -}}{{ range .Site.Menus.main -}}
                     <a class="page-link" href="{{ .URL }}">{{ .Name | htmlEscape }}</a>
-{{ end }}
+{{- end }}
                 </div>
             </nav>
         </div>

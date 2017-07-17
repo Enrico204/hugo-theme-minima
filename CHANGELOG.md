@@ -6,6 +6,11 @@ Items starting with `DEPRECATION` are important deprecation notices.
 
 ### New Features
 
++ Switch to use system fonts
++ Switch to mobile first styles
++ Added headroom.js to hide/display header on scroll
++ Added schema tags
++ Improve SEO based on <http://smo.knowem.com/>
 + Added section list template
 + Added support for favicons
 + Added page footer with support for icons
@@ -17,10 +22,16 @@ Items starting with `DEPRECATION` are important deprecation notices.
 
 ### Bug fixes
 
++ Fixed `.footer-links` margin
++ Added title to banner images
++ Give banners a rounded border
++ Get rid of footer margin
 + Moved HTML closing tags into footer partial
 + Fixed page metadata by using SEO tagging with Open Graph,
   Google News and Twitter support.
 
 ### Maintenance
 
++ Switch to using SVG file for icons
++ Transition to [WowStack group](https://git01.kogitoapp.com/wowstack)
 + Notify chat only on status changes
