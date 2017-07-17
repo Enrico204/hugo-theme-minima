@@ -1,4 +1,4 @@
-The MIT License (MIT)
+# The MIT License (MIT)
 
 Copyright (c) 2015-2017 Daniel S. Reichenbach <daniel@kogitoapp.com>
 
