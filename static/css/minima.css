@@ -169,6 +169,7 @@ table {
   background: #eee;
   font-size: 0.8em;
   margin-bottom: 30px;
+  width: 100%;
 }
 
 table th {
