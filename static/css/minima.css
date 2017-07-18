@@ -163,12 +163,20 @@ pre > code {
 }
 
 /**
- * Clearfix
+ * Tables
  */
-.wrapper:after, .footer-col-wrapper:after {
-  content: "";
-  display: table;
-  clear: both;
+table {
+  background: #eee;
+}
+
+table th {
+  background: #e6e6e6;
+  font-weight: 400;
+}
+
+table th, table td {
+  padding: 15px;
+  border: solid 1px #e6e6e6;
 }
 
 /**
@@ -189,6 +197,15 @@ pre > code {
 
 .social-media-list li + li {
   padding-top: 5px;
+}
+
+/**
+ * Clearfix
+ */
+.wrapper:after, .footer-col-wrapper:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 /**
@@ -319,8 +336,8 @@ pre > code {
 }
 
 /**
- * Site footer
- */
+   * Site footer
+   */
 .site-footer {
   border-top: 1px solid #e8e8e8;
   padding: 30px 0;
@@ -378,8 +395,8 @@ pre > code {
 }
 
 /**
- * Page content
- */
+   * Page content
+   */
 .page-content {
   padding: 5.5em 0 30px 0;
 }
@@ -414,8 +431,8 @@ pre > code {
 }
 
 /**
- * Posts
- */
+   * Posts
+   */
 .post-header {
   margin-bottom: 30px;
 }
@@ -477,8 +494,8 @@ img.banner {
 }
 
 /**
- * Footer links
- */
+   * Footer links
+   */
 .footer-links {
   list-style: none;
   margin: 0;

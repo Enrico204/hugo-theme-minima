@@ -185,15 +185,21 @@ pre {
 
 
 /**
- * Clearfix
+ * Tables
  */
-%clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
+table {
+  background: $silver-color;
+
+  th {
+    background: darken($silver-color, 3%);
+    font-weight: 400;
+  }
+
+  th, td {
+    padding: ($spacing-unit / 2);
+    border: solid 1px darken($silver-color, 3%);
+  }
 }
-
-
 
 /**
  * Icons
@@ -215,4 +221,15 @@ pre {
   li + li {
     padding-top: 5px;
   }
+}
+
+
+
+/**
+ * Clearfix
+ */
+%clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }

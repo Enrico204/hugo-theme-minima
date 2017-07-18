@@ -13,10 +13,6 @@ trim_trailing_whitespace = true
 [*.md]
 trim_trailing_whitespace = false
 
-[*.{sh}]
-indent_style = tab
-indent_size = 2
-
-[*.{json,sql,toml,xml,yml}]
-indent_style = tab
+[*.{scss,toml,yml}]
+indent_style = space
 indent_size = 2

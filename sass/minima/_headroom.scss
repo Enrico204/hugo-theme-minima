@@ -1,20 +1,20 @@
 .headroom {
-    will-change: transform;
-    transition: transform 0.25s ease-in-out;
+  will-change: transform;
+  transition: transform 0.25s ease-in-out;
 }
 
 .headroom--pinned {
-    display: block;
+  display: block;
 }
 
 .headroom--unpinned {
-    display: none;
+  display: none;
 }
 
 .headroom--pinned {
-    transform: translateY(0%);
+  transform: translateY(0%);
 }
 
 .headroom--unpinned {
-    transform: translateY(-100%);
+  transform: translateY(-100%);
 }
