@@ -190,6 +190,7 @@ pre {
 table {
   background: $silver-color;
   font-size: 0.8em;
+  margin-bottom: $spacing-unit;
 
   th {
     background: darken($background-color, 3%);
