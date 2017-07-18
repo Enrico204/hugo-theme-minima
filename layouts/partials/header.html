@@ -1,6 +1,6 @@
     <header id="header" class="site-header site-header--fixed headroom">
         <div class="wrapper">
-            <a href="{{ .Site.BaseURL | relURL }}" class="logo"><img src="{{ .Site.Params.logo }}" alt="{{ .Site.Params.logo_alt }}" width="50"></a>
+            <a href="{{ .Site.BaseURL | relURL }}" class="logo"><img src="{{ .Site.BaseURL | relURL }}{{ .Site.Params.logo }}" alt="{{ .Site.Params.logo_alt }}" width="50"></a>
             <a class="site-title" href="{{ .Site.BaseURL | relURL }}">{{ .Site.Title }}</a>
 
             <nav class="site-nav">

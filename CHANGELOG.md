@@ -12,6 +12,7 @@ Items starting with `DEPRECATION` are important deprecation notices.
 
 ### Bug fixes
 
++ Fixed use of URL for logo display
 + Fixed JS console error
 + Fixed use of HTML language property
 
