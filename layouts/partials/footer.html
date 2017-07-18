@@ -28,10 +28,10 @@
                 <div class="footer-col footer-col-3">
                     <ul class="footer-links">
                         <li>
-                            <a href="{{ .Site.Social.powered_by_url }}" target="_blank">{{ i18n "powered_by" }} {{ .Site.Social.powered_by_name }}</a>
+                            <a href="{{ .Site.Params.poweredBy.url }}" target="_blank">{{ with .Site.Params.poweredBy.name }}{{ i18n "powered_by" . }}{{ end }}</a>
                         </li>
                         <li>
-                            <a href="https://gohugo.io/" class="kudos">{{ i18n "made_with" }} <img src="{{ .Site.BaseURL | relURL }}img/minima/hugo-logo.png" width="22" height="22"></a>
+                            <a href="{{ .Site.Params.madeWith.url }}" class="kudos">{{ with .Site.Params.madeWith.name }}{{ i18n "made_with" . }}{{ end }} <img src="{{ .Site.BaseURL | relURL }}{{ .Site.Params.madeWith.logo }}" width="22" height="22"></a>
                         </li>
                     </ul>
                 </div>

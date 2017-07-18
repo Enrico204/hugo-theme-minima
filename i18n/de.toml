@@ -2,7 +2,7 @@
 other = "Einfach mal den Feed stalken"
 
 [powered_by]
-other = "Rennt dank"
+other = "Rennt dank {{ .Count }}"
 
 [made_with]
-other = "Erstellt mit"
+other = "Erstellt mit {{ .Count }}"
