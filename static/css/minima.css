@@ -170,13 +170,17 @@ table {
 }
 
 table th {
-  background: #e6e6e6;
+  background: whitesmoke;
   font-weight: 400;
+}
+
+table td {
+  background: #fdfdfd;
 }
 
 table th, table td {
   padding: 15px;
-  border: solid 1px #e6e6e6;
+  border: solid 1px #7a7a7a;
 }
 
 /**
