@@ -12,11 +12,14 @@ $spacing-unit:     30px !default;
 
 $text-color:       #111 !default;
 $background-color: #fdfdfd !default;
+$home-bg-color:   rgba(253, 253, 253, 0.7);
 $brand-color:      #2a7ae2 !default;
 
 $grey-color:       #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
+
+$wowstack-color: #28647f;
 
 $black-color:    #333 !default;
 $silver-color:   #eee !default;

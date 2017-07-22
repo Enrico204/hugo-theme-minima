@@ -2,7 +2,7 @@
  * Site header
  */
 .site-header {
-  background-color: $background-color;
+  background-color: $home-bg-color;
   border-top: 0px solid $grey-color-dark;
   border-bottom: 1px solid $grey-color-light;
   min-height: $spacing-unit * 1.865;
@@ -36,7 +36,7 @@
 
   &,
   &:visited {
-    color: $grey-color-dark;
+    color: $wowstack-color;
   }
 }
 
@@ -87,7 +87,7 @@
   }
 
   .page-link {
-    color: $text-color;
+    color: $wowstack-color;
     line-height: $base-line-height;
     display: block;
     padding: 5px 10px;
@@ -143,6 +143,7 @@
    * Site footer
    */
   .site-footer {
+    background-color: $home-bg-color;
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
   }
@@ -150,6 +151,7 @@
   .footer-heading {
     @include relative-font-size(1.125);
     margin-bottom: $spacing-unit / 2;
+    color: $wowstack-color;
   }
 
   .contact-list,
@@ -207,7 +209,13 @@
     }
   }
 
-
+  /**
+  * Home
+  */
+  .home {
+    background-color: $home-bg-color;
+    padding: 5%;
+  }
 
   /**
    * Page content
@@ -332,3 +340,49 @@
       }
     }
   }
+
+/**
+ * Video BG
+ */
+
+ .fullscreen-bg {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+}
+
+.fullscreen-bg__video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    height: 300%;
+    top: -100%;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    width: 300%;
+    left: -100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .fullscreen-bg {
+    background: url('../img/wowstack/video_bg.png') center center / cover no-repeat;
+  }
+
+  .fullscreen-bg__video {
+    display: none;
+  }
+}
