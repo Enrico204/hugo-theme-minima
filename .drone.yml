@@ -20,11 +20,3 @@ pipeline:
       - ./node_modules
     volumes:
       - /tmp/cache:/cache
-
-  slack:
-    image: plugins/slack
-    username: Drone robot
-    icon_url: https://avatars.githubusercontent.com/drone
-    secrets: [ slack_webhook, slack_channel ]
-    when:
-      status: changed
