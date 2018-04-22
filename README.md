@@ -3,7 +3,7 @@
 This is a [Hugo][hugo] theme, ported from the beautiful [Minima][hugo-minima]
 default theme for Jekyll.
 
-![A Minima post](./images/tn.png)
+![A Minima post](https://git01.kogitoapp.com/danielsreichenbach/hugo-minima-theme/raw/branch/master/images/tn.png)
 
 [bs-image]: https://build01.kogitoapp.com/api/badges/danielsreichenbach/hugo-minima-theme/status.svg
 [bs-url]: https://build01.kogitoapp.com/danielsreichenbach/hugo-minima-theme
