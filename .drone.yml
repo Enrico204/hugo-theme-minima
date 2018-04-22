@@ -1,22 +1,6 @@
 pipeline:
-  cache:
-    image: drillster/drone-volume-cache:latest
-    restore: true
-    mount:
-      - ./node_modules
-    volumes:
-      - /tmp/cache:/cache
-
   assets:
-    image: kogitoapp/node:latest
+    image: kogitoapp/node:8
     commands:
       - yarn
       - yarn run build
-
-  cache:
-    image: drillster/drone-volume-cache:latest
-    rebuild: true
-    mount:
-      - ./node_modules
-    volumes:
-      - /tmp/cache:/cache
