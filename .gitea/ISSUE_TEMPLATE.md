@@ -17,7 +17,7 @@ In order to reproduce the issue, please support us in providing steps to take
 to get the issue:
 
 1. If you can, please provide a git commit hash or a git tag for the version
-   of Hugo Minima you are using.
+   you are using.
 2. If applicable provide the configuration you use.
 3. Follow by a concise list of steps that have caused the issue to emerge.
 

@@ -11,7 +11,7 @@ Please provide the following information:
 
 ## What I did
 
-Let us know which feature or bug fix you want to add to Hugo Minima, summarize.
+Let us know which feature or bug fix you want to add, summarize.
 
 ## How I did it
 
