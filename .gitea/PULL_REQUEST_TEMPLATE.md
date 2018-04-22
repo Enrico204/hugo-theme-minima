@@ -1,7 +1,4 @@
 <!--
-Please make sure you've read and understood our contributing guidelines;
-https://wowstack.io/manual/
-
 ** Make sure all your commits include a signature generated with `git commit -s` **
 
 If this is a bug fix, make sure your description includes "fixes #xxxx", or
@@ -14,7 +11,7 @@ Please provide the following information:
 
 ## What I did
 
-Let us know which feature or bug fix you want to add to OpenWoW, summarize.
+Let us know which feature or bug fix you want to add to Hugo Minima, summarize.
 
 ## How I did it
 

@@ -4,13 +4,13 @@ Items starting with `DEPRECATION` are important deprecation notices.
 
 ## (NOT YET RELEASE ) Release 0.2.0
 
-### New Features
+### New Features in 0.20
 
 + Added options to make header move smoother
 + Allow adding custom CSS and JS to the theme using `customCSS` and `customJS`
   site parameters
 
-### Bug fixes
+### Bug fixes in 0.2.0
 
 + Fixed localization for footer to use parameters
 + Fixed use of URL for logo display
@@ -19,7 +19,7 @@ Items starting with `DEPRECATION` are important deprecation notices.
 
 ## (2017-07-17) Release 0.1.0
 
-### New Features
+### New Features in 0.1.0
 
 + Switch to use system fonts
 + Switch to mobile first styles
@@ -35,7 +35,7 @@ Items starting with `DEPRECATION` are important deprecation notices.
 + Added build system for SASS
 + Created initial structure for Jekyll "Minima" theme port
 
-### Bug fixes
+### Bug fixes in 0.1.0
 
 + Fixed `.footer-links` margin
 + Added title to banner images
@@ -48,5 +48,4 @@ Items starting with `DEPRECATION` are important deprecation notices.
 ### Maintenance
 
 + Switch to using SVG file for icons
-+ Transition to [WowStack group](https://git01.kogitoapp.com/wowstack)
 + Notify chat only on status changes

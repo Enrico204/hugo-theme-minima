@@ -17,3 +17,4 @@ Thumbs.db
 
 # Vendor libraries
 /node_modules/*
+/yarn-error.log
