@@ -1,6 +1,6 @@
 pipeline:
   assets:
-    image: kogitoapp/node:8
+    image: kogitoapp/node:8.11.2
     commands:
       - yarn
       - yarn run build
